@@ -1,6 +1,6 @@
 output "vpc_id"{
     type=string
-    value="dummy"
+    value=component.vpc.vpc_id
 }
 
 output "test_out"{
